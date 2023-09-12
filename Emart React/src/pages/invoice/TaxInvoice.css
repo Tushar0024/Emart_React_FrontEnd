@@ -1,0 +1,63 @@
+.tax-invoice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .invoice-header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-date {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .customer-name {
+    font-weight: bold;
+  }
+  
+  .product-list {
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .add-product-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .invoice-summary {
+    margin-top: 20px;
+  }
+  
+  .generate-invoice-button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

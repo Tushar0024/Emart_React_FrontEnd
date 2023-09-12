@@ -1,0 +1,43 @@
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 900px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  .product-name {
+    margin-top: 10px;
+  }
+  
+  .product-short-desc {
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .product-prices {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-offer-price {
+    font-size: 1.2em;
+    color: #e91e63;
+  }
+  
+  .product-mrp-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .product-long-desc {
+    margin-top: 15px;
+  }
+  

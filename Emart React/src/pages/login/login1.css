@@ -1,0 +1,122 @@
+.Loginpagecontainer {
+    padding-top: 40px;
+    padding-bottom: 117px;
+    background-color: #435f6f;
+    background-image: linear-gradient(to right, #435f6f 0%, #567a8f 50%, #567a8f 100%), linear-gradient(to right, #4d6d7f 0%, #7fa0b2 51%, #7094a8 100%);
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  #app-title {
+    text-align: center;
+    margin: 20px 0px -20px 0px;
+    color: white;
+    font-size: 37px;
+    font-family: inherit;
+    font-weight: 400;
+  }
+  
+  .panel {
+    display: block;
+    max-width: 300px;
+    max-height: auto;
+    margin: 45px auto 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+  }
+  
+  .panel-body {
+    padding-top: 21px;
+    font-size: 13.5px;
+    font-weight: 300;
+  }
+  
+  #login-rememberme {
+    margin: 10px 0px 15px 0px;
+  }
+  
+  input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid #d7dcdf;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  input:focus {
+    border: 2px solid #21A1B3;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    font-size: 14px;
+  }
+  
+  .btnlogin {
+    margin-top: 10px;
+    padding: 6px 6px;
+    min-width: 75px;
+    background-color: #435F6F;
+    color: white;
+    border: 1px solid #435F6F;
+    border-radius: 4px;
+    transition: ease-in-out background-color 250ms, ease-in-out color 250ms;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .btnlogin:hover {
+    cursor: pointer;
+    background-color: #344a57;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  }
+  
+  .alogin {
+    margin-top: 28px;
+    font-size: 12px;
+    color: #21A1B3;
+    text-decoration: none;
+  }
+  .alogin:hover {
+    color: #21A1B3;
+  }
+  
+  .loginfooter {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d7dcdf;
+  }
+  
+  .bold {
+    font-weight: 700;
+    display: inline;
+  }
+  
+  #togglepassview {
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .registerbtn{
+  margin-top: 12px;
+  }
+  .loginscrspin{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }

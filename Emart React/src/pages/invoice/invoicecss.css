@@ -1,0 +1,66 @@
+/* InvoicePage.css */
+
+.product-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+.invoice-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .invoice-header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-date {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .invoice-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .invoice-field {
+    margin: 10px 0;
+  }
+
+  
+.invoice-page {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .invoice-date {
+    font-size: 14px;
+  }
+  
+  .invoice-customer-details,
+  .invoice-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .customer-field,
+  .invoice-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styling can be added as needed */
+  
